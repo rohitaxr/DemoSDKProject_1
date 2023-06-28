@@ -25,7 +25,7 @@ TODO: Add long description of the pod here.
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'rohitaxr' => 'rohitax@svapinfotech.com' }
-  s.source           = { :http => 'https://drive.google.com/file/d/1qr0IIkJALlqUV9qTg38KNNieYpxdFIIj/view?usp=sharing'}
+  s.source           = { :git => 'https://github.com/rohitaxr/Pods_DemoSDKProject_1.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '13.6'
