@@ -21,16 +21,16 @@ Pod::Spec.new do |s|
 TODO: Add long description of the pod here.
                        DESC
 
-  s.homepage         = 'https://github.com/rohitaxr/Pods_DemoSDKProject_1'
+  s.homepage         = 'https://www.google.com'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'rohitaxr' => 'rohitax@svapinfotech.com' }
-  s.source           = { :git => 'https://github.com/rohitaxr/Pods_DemoSDKProject_1.git', :tag => s.version.to_s }
+  s.source           = { :http => 'https://drive.google.com/file/d/1qr0IIkJALlqUV9qTg38KNNieYpxdFIIj/view?usp=sharing'}
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.ios.deployment_target = '10.0'
-
-  s.source_files = 'Pods_DemoSDKProject_1/Classes/**/*'
+  s.ios.deployment_target = '13.6'
+  s.vendored_frameworks = 'DemoSDKProject_1.xcframework'
+  # s.source_files = 'Pods_DemoSDKProject_1/Classes/**/*'
   
   # s.resource_bundles = {
   #   'Pods_DemoSDKProject_1' => ['Pods_DemoSDKProject_1/Assets/*.png']
@@ -38,5 +38,6 @@ TODO: Add long description of the pod here.
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
+  s.dependency 'CropViewController', '~> 2.6.1'
+  s.dependency 'SVProgressHUD'
 end

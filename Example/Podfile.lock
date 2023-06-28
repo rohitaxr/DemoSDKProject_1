@@ -1,0 +1,16 @@
+PODS:
+  - Pods_DemoSDKProject_1 (0.1.0)
+
+DEPENDENCIES:
+  - Pods_DemoSDKProject_1 (from `../`)
+
+EXTERNAL SOURCES:
+  Pods_DemoSDKProject_1:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  Pods_DemoSDKProject_1: b8b7e24cb92cbecffebb836218ca838be61f6654
+
+PODFILE CHECKSUM: 8196b16645cf1461a8f54fba9ce7147186edc251
+
+COCOAPODS: 1.12.0
